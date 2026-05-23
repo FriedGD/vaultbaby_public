@@ -2,18 +2,7 @@
 
 > **Search your baby's memories with natural language.**
 
-[![Download App](https://img.shields.io/badge/Download-Release-blue)](#-download--install)
-[![Demo Video](https://img.shields.io/badge/Watch-Demo-red)](#-demo)
-
 VaultBaby is a **private, AI-powered family album** built around one core promise: you should be able to find your baby's memories by simply describing them. Instead of scrolling through thousands of photos, just ask — *"Find the photo where grandma is holding the baby"* — and VaultBaby does the rest.
-
----
-
-## 📸 Screenshots & Demo
-
-> *(Insert key screenshots here — main album view, SmartSearch in action, D+day calendar, etc.)*
-
-![SmartSearch Demo](./assets/demo_video.gif)
 
 ---
 
@@ -35,7 +24,7 @@ Common pain points include:
 
 VaultBaby solves this by turning a family's baby media into a **searchable, AI-indexed memory archive**.
 
-When photos and videos are uploaded, VaultBaby automatically prepares searchable context for each memory. Photos are indexed through **VaultSage**, while videos — which VaultSage cannot process directly — are first analyzed by **Gemini**, which interprets scenes, actions, emotions, and milestones from the video content before passing the resulting metadata into the search pipeline.
+When photos and videos are uploaded, VaultBaby automatically prepares searchable context for each memory. Photos, videos are indexed through **VaultSage** and **Gemini**
 
 The result is a family album that understands human questions.
 
@@ -43,13 +32,13 @@ The result is a family album that understands human questions.
 
 ## ✨ Key Features
 
-### 🔍 SmartSearch — Natural Language Memory Search
+### 🔍 SmartSearch — Natural Language Memory Search(English only now)
 
 SmartSearch is the core differentiator of VaultBaby. Family members can find baby memories using everyday language instead of manual filters or exact dates.
 
 - Search by people, places, actions, emotions, events, and milestones.
 - Works for both photos and videos.
-- Example queries: *"Dad feeding the baby"*, *"smiling in the stroller"*, *"first birthday cake"*, *"beach last summer"*.
+- Example queries: *"Dad feeding the baby"*, *"smiling in the stroller"*, *"first birthday cake"*
 
 ### 📅 D+day Calendar — Growth Timeline View
 
@@ -65,7 +54,7 @@ VaultBaby supports multiple independent family groups, such as paternal family, 
 - Each group has its own access boundary, so media and members can be managed independently.
 - No need to create separate albums manually for different sides of the family.
 
-### 🔗 Family Invitations — Simple Onboarding for Relatives
+#### 🔗 Family Invitations — Simple Onboarding for Relatives
 
 Parents can invite grandparents and relatives through shareable invite links. After signing in, invited members join the correct family group and view the child's album based on their permission level.
 
@@ -104,28 +93,12 @@ Photo Upload → VaultSage (AI metadata indexing)
              → SmartSearch Query → Matching Results
 ```
 
-### Application Stack
-
-> *(Fill in the technologies used in your implementation.)*
-
-| Layer | Technology |
-|---|---|
-| **Frontend** | — |
-| **Backend** | — |
-| **Database** | — |
-| **Storage** | — |
-| **AI / Search** | VaultSage, Gemini API |
-| **Auth** | — |
-
----
-
 ## 📥 Download & Install
 
 | Platform | Link |
 |---|---|
-| **Android** | [Download APK from Releases](../../releases) |
-| **iOS** | *(TestFlight or App Store link)* |
-| **Web Demo** | *(Demo link, if available)* |
+| **Mobile(Android only now)** | [Download APK from Releases](../../releases) |
+| **Web Demo** | *https://vaultbaby-ktsg.vercel.app/* |
 
 ---
 
@@ -134,14 +107,6 @@ Photo Upload → VaultSage (AI metadata indexing)
 - Monthly and age-based growth recap pages.
 - AI-detected milestone suggestions.
 - Parenting document search (e.g., vaccination records, daycare notes).
-- Family viewing insights and activity summaries.
 - Personalized parenting assistance based on accumulated child records.
 
 ---
-
-## 📧 Contact
-
-| | |
-|---|---|
-| **Team** | *(Team name)* |
-| **Email** | *(Contact email)* |
