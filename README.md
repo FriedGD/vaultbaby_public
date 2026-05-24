@@ -2,7 +2,7 @@
 
 > **Search your baby's memories with natural language.**
 
-VaultBaby is a **private, AI-powered family album** built around one core promise: you should be able to find your baby's memories by simply describing them. Instead of scrolling through thousands of photos, just ask — *"Find the photo where grandma is holding the baby"* — and VaultBaby does the rest.
+[VaultBaby](https://vaultbaby-ktsg.vercel.app/) is a **private, AI-powered family album** built around one core promise: you should be able to find your baby's memories by simply describing them. Instead of scrolling through thousands of photos, just ask — *"Find the photo where grandma is holding the baby"* — and VaultBaby does the rest.
 
 ---
 
